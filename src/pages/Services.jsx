@@ -59,7 +59,7 @@ const Services = () => {
           className="absolute inset-0 bg-center bg-cover opacity-30"
           style={{
             backgroundImage:
-              "url(https://images.pexels.com/photos/3807327/pexels-photo-3807327.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)",
+              "url(https://images.unsplash.com/photo-1539799139339-50c5fe1e2b1b?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
           }}
         >
           <div className="absolute inset-0 bg-dark-900 bg-opacity-70"></div>
@@ -98,7 +98,7 @@ const Services = () => {
             {services.map((service) => (
               <motion.div
                 key={service.id}
-                className="card service-card p-8 cursor-pointer h-full"
+                className="p-5 border-2 border-primary-500/30 rounded-md cursor-pointer h-full"
                 variants={itemVariants}
                 onClick={() => toggleExpand(service.id)}
               >
