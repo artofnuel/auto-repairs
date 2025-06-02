@@ -125,7 +125,9 @@ const Gallery = () => {
                   />
                   <div className="portfolio-overlay">
                     <div className="text-center p-6">
-                      <h3 className="text-xl font-bold mb-2">{item.title}</h3>
+                      <h3 className="text-light-300 text-xl font-bold mb-2">
+                        {item.title}
+                      </h3>
                       <p className="text-light-300 mb-4 capitalize">
                         {item.category}
                       </p>
